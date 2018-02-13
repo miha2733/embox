@@ -89,7 +89,9 @@ def find_irq_handlers_in_file(info, file):
 				' -I_STM32_PATH_/Drivers/STM32F7xx_HAL_Driver/Inc'			+ \
 				' -I_STM32_PATH_/Drivers/BSP/STM32746G-Discovery'			+ \
 				' -I_STM32_PATH_/Drivers/CMSIS/Device/ST/STM32F7xx/Include'	+ \
-				' -I_STM32_PATH_/Drivers/CMSIS/Include',
+				' -I_STM32_PATH_/Drivers/CMSIS/Include'						+ \
+				' -I_STM32_PATH_/Middlewares/ST/STM32_USB_Device_Library/Core/Inc' +\
+				' -I_STM32_PATH_/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc',
 				'f4' :
 				' -DSTM32F407xx'											+ \
 				' -I_SRC_/Inc'												+ \
